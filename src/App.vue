@@ -1,25 +1,25 @@
 <template class="sb-nav-fixed">
   <HeaderComponent />
-  <SideComponent>
+  <!-- <SideComponent> -->
     <!-- <router-link to="/">Home</router-link> | -->
     <!-- <router-link to="/about">About</router-link> -->
  
-  <div class="layoutSidenav_content">
+  <div>
     <router-view/>
   </div> 
-</SideComponent>
+  <!-- </SideComponent>   -->
 </template>
 <script>
 
 import HeaderComponent from "./components/HeaderComponent.vue";
-import SideComponent from "./components/SideComponent.vue";
+// import SideComponent from "./components/SideComponent.vue";
 
 export default {
     name: "App",
     methods: {},
     components: {
     HeaderComponent,
-    SideComponent,
+    // SideComponent,
 },
 };
 </script>
